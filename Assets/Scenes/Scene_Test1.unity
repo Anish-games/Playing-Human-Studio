@@ -2169,9 +2169,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BottomPanel
   continueButton: {fileID: 122771757}
   backButton: {fileID: 214611922}
-  layoutSavedPanel: {fileID: 223950200}
+  confirmationPanel: {fileID: 223950200}
+  confirmationText: {fileID: 108247020}
+  continueMessage: Layout Saved
+  backMessage: Order Reset
   menuSceneName: Menu
-  savedMessageDuration: 2
+  messageDuration: 2
 --- !u!1 &1270750183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,8 +2780,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   autoPopulateButton: {fileID: 1177400708}
-  backButton: {fileID: 214611922}
-  continueButton: {fileID: 122771757}
 --- !u!1 &1731515871
 GameObject:
   m_ObjectHideFlags: 0
